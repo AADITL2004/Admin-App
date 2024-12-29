@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-clriappmain-dev-8786e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::905418002872:role/amplify-clriappmain-dev-8786e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::905418002872:role/amplify-clriappmain-dev-8786e-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-clriappmain-dev-8786e-deployment",
+      "UnauthRoleName": "amplify-clriappmain-dev-8786e-unauthRole",
+      "StackName": "amplify-clriappmain-dev-8786e",
+      "StackId": "arn:aws:cloudformation:ap-south-1:905418002872:stack/amplify-clriappmain-dev-8786e/9037a570-8911-11ef-8a43-0a90a7db53e1",
+      "AmplifyAppId": "d3no3jp7jcnyt6"
+    }
+  },
+  "auth": {
+    "clriappmain69600df3": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-clriappmain-dev-8786e-deployment/amplify-cfn-templates/auth/clriappmain69600df3-cloudformation-template.json",
+        "logicalId": "authclriappmain69600df3"
+      },
+      "lastPushTimeStamp": "2024-10-13T03:28:41.587Z",
+      "output": {
+        "UserPoolId": "ap-south-1_ZzegMmsJx",
+        "AppClientIDWeb": "2q2kg7vfipiutd361jaisv46b0",
+        "AppClientID": "6vfnib29vanjkua7ib0baeihsm",
+        "IdentityPoolId": "ap-south-1:76fb0960-494d-4e00-89c4-2c5d5049f8ce",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:905418002872:userpool/ap-south-1_ZzegMmsJx",
+        "IdentityPoolName": "clriappmain69600df3_identitypool_69600df3__dev",
+        "UserPoolName": "clriappmain69600df3_userpool_69600df3"
+      },
+      "lastPushDirHash": "aa/yQkar88oYqWOCBfLwCbw5OVk="
+    }
+  }
+}
